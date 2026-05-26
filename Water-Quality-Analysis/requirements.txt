@@ -1,0 +1,15 @@
+# ==============================================================================
+# Dependências do Projeto: Pipeline de Análise de Qualidade da Água
+# ==============================================================================
+
+# --- Processamento e Engenharia de Dados ---
+pandas>=2.0.0        # Manipulação, limpeza e tipagem estrita de datasets estruturados
+numpy>=1.24.0        # Operações matemáticas e suporte a arrays de alta performance
+openpyxl>=3.1.0      # Motor de leitura/escrita para arquivos do Microsoft Excel (.xlsx)
+
+# --- Visualização de Dados e Exploração (EDA) ---
+matplotlib>=3.7.0    # Biblioteca base para plotagem de gráficos 2D
+seaborn>=0.12.0      # Plotagem estatística e relatórios visuais refinados para o Notebook
+
+# --- Ambiente e Execução ---
+ipykernel>=6.20.0    # Necessário para executar o Jupyter Notebook (.ipynb) no VS Code/Jupyter
