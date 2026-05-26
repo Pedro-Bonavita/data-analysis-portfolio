@@ -1,0 +1,46 @@
+# ==========================================
+# GitIgnore - Water Quality Analysis Project
+# ==========================================
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.conda/
+
+# --- Virtual Environments (Ambientes Virtuais) ---
+.venv/
+venv/
+env/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Power BI ---
+# Arquivos de relatório (.pbix) e modelos (.pbit) costumam ser muito grandes
+*.pbix
+*.pbit
+
+# --- Data / Planilhas (Opcional) ---
+# Caso decida não rastrear arquivos CSV/XLSX grandes ou gerados automaticamente
+# Para rastrear, basta comentar as linhas abaixo
+# *.csv
+# *.xlsx
+# *.parquet
+# !data/raw/Copy of WaterQuality.csv
+# !data/processed/WaterQuality_Clean.csv
+
+# --- IDEs e Editores de Código ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

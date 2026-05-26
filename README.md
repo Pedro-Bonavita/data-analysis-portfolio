@@ -1,6 +1,6 @@
 # Data Analysis Portfolio 
 
-Welcome to my professional portfolio. Here, I showcase end-to-end data projects focused on solving business problems through analytical thinking and data engineering principles.
+Welcome to my professional portfolio. Here, I showcase end-to-end data projects focused on solving business problems through analytical thinking and data-driven insights.
 
 ## Featured Projects
 
