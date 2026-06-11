@@ -8,6 +8,8 @@ Each folder below contains detailed documentation regarding the business problem
 
 *   **[GenTech HR Analysis](./GenTech-HR-Analysis):** An interactive HR Analytics dashboard and data governance pipeline built in Google Sheets. It tracks employee performance, retention metrics, and training ROI, employing advanced Excel/Sheets formulas, audit lineage columns (`clean_` prefix), and UI/UX optimization strategies for spreadsheet-based applications.
 *   **[Water Quality Analysis](./Water-Quality-Analysis):** A data engineering and business intelligence pipeline. It features a robust Python (Pandas) data cleansing script to handle missing values and coordinates, custom SQL queries to format data for ingestion, and an upcoming interactive **Power BI dashboard** designed to visualize key environmental indicators and pollution correlations.
+*   **[ETL & Statistical Analysis — Hotel Dataset](./ETL_Statistics_Hotel):** A complete data cleaning, transformation, and statistical analysis pipeline in Python (Pandas/Seaborn). Outliers in age and negative charge values are treated, custom features like stay duration are engineered, and satisfaction classes are modeled to provide descriptive analysis and visualization.
+*   **[Piston Quality Analysis](./GenPiston_Quality_Analysis):** An industrial quality standards project including a Python Jupyter Notebook for outlier and distribution analysis, alongside a Power BI dashboard to monitor production parameters and compliance metrics.
 
 ## My Approach
 1. **Understanding:** Identifying the core business question.
