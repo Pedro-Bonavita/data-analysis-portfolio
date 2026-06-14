@@ -30,7 +30,7 @@
 
 ## 📖 Sobre o Projeto
 
-Este projeto consiste em uma análise estatística de controle de qualidade e no desenvolvimento de um painel de monitoramento para a linha de produção de pistões industriais. O objetivo é identificar padrões de conformidade, investigar desvios nas medições físicas dos pistões (como diâmetro e altura) e criar uma ferramenta visual para que gestores tomem decisões rápidas sobre rejeição de lotes.
+Este projeto consiste em uma análise estatística de controle de qualidade e no desenvolvimento de um painel de monitoramento para a linha de produção de veículos. O objetivo é identificar padrões de conformidade, investigar desvios nas categorias de produtos, analisar a evolução do volume de vendas e feedback dos clientes, para criar uma ferramenta visual para gestores tomarem decisões rápidas.
 
 ---
 
@@ -51,12 +51,13 @@ GenPiston_Quality_Analysis/
 - **Limpeza de Dados**: Identificação e tratamento de valores ausentes, duplicados ou inconsistentes.
 - **Análise Estatística**:
   - Cálculo de medidas de tendência central e variabilidade (média, mediana, desvio padrão, variância).
-  - Análise de distribuições de frequência para dimensões físicas dos pistões.
-- **Detecção de Anomalias**: Identificação de outliers em lotes que não atendem às especificações técnicas estritas.
+  - Análise das categorias de produtos e vendas.
+  - Análise do feedback dos clientes.
+  - Análise do comportamento da linha de produção.
 - **Visualização**: Gráficos estatísticos que auxiliam na compreensão do comportamento da linha de produção.
 
 ### 2. Painel Power BI (`Analise_Qualidade_GenPiston.pbix`)
-- **Monitoramento de Produção**: Visão geral de pistões produzidos versus pistões rejeitados.
+- **Monitoramento de Vendas**: Visão geral de veículos vendidos.
 - **Métricas de Qualidade**: Taxa de rejeição histórica, análise por lote e rastreabilidade de falhas.
 - **Filtros Dinâmicos**: Navegação interativa por períodos temporais, tipo de defeito ou máquina de produção.
 
@@ -97,7 +98,7 @@ GenPiston_Quality_Analysis/
 
 # ⚙️ GenPiston Quality Analysis
 
-**Exploratory data analysis, statistical treatment, and quality indicator monitoring for industrial pistons.**
+**Exploratory data analysis, statistical treatment, and quality indicator monitoring for vehicles.**
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange?logo=jupyter&logoColor=white)
@@ -121,7 +122,7 @@ GenPiston_Quality_Analysis/
 
 ## 📖 About the Project
 
-This project focuses on quality control statistical analysis and the development of a monitoring dashboard for the industrial piston production line. The main objective is to identify compliance patterns, investigate deviations in the physical measurements of pistons (such as diameter and height), and build a visual tool to assist managers in decision-making processes regarding batch rejection.
+This project focuses on quality control statistical analysis and the development of a monitoring dashboard for vehicles production line. The main objective is to identify compliance patterns, investigate deviations in the categories of products, analyze the evolution of sales volume and customer feedback, to create a visual tool to assist managers in decision-making processes.
 
 ---
 
@@ -142,13 +143,14 @@ GenPiston_Quality_Analysis/
 - **Data Cleansing**: Identifying and handling missing values, duplicates, and physical anomalies.
 - **Statistical Analysis**:
   - Center and variability metrics (mean, median, standard deviation, variance).
-  - Frequency distributions for physical piston measurements.
-- **Anomaly Detection**: Identifying outliers in batches that fail to meet strict technical tolerances.
+  - Analysis of product categories and sales.
+  - Analysis of customer feedback.
+  - Analysis of the production line behavior.
 - **Visualization**: Detailed statistical charts illustrating the production line performance.
 
 ### 2. Power BI Dashboard (`Analise_Qualidade_GenPiston.pbix`)
-- **Production Monitoring**: Overview of total pistons produced vs. rejected.
-- **Quality Metrics**: Historical rejection rate, batch tracking, and fault analysis.
+- **Sales Monitoring**: Overview of vehicles sold.
+- **Quality Metrics**: Historical sales volume.
 - **Dynamic Filters**: Seamless slicing by timeframes, defect types, and production machinery.
 
 ---
